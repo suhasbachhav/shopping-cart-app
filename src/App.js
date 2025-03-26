@@ -17,7 +17,6 @@ function App() {
   
 
   useEffect(()=>{
-
     if(isInitial){
       isInitial = false;
       return;

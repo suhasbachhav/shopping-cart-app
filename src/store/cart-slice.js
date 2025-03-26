@@ -42,6 +42,8 @@ const cartSlice = createSlice({
   },
 });
 
+
+//thunk
 export const sendCartData = (cart) => {
   return async (dispatch) => {
       dispatch(
