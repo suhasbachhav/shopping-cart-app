@@ -40,16 +40,6 @@ const ProductItem = (props) => {
 
     dispatch(cartActions.replaceCart(newCart));
 
-    // and then send Http request
-    // fetch('firebase-url', { method: 'POST', body: JSON.stringify(newCart) })
-
-    // dispatch(
-    //   cartActions.addItemToCart({
-    //     id,
-    //     title,
-    //     price,
-    //   })
-    // );
   };
 
   return (
